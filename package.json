@@ -1,0 +1,28 @@
+{
+  "name": "re-reselect-flat-weak-map-cache",
+  "version": "0.0.1",
+  "description": "Re-reselect custom caching strategy utilizing WeakMap",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && npm run build:tsc",
+    "build:tsc": "tsc",
+    "debug": "tsc && node --inspect-brk --expose-gc ./examples/example.js",
+    "clean": "rimraf lib",
+    "test": "node --expose-gc node_modules/.bin/jest",
+    "watch": "tsc --watch"
+  },
+  "author": "Brandon Yanofsky <byanofsky@me.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.12",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "re-reselect": "^3.4.0",
+    "reselect": "^4.0.0",
+    "typescript": "^3.7.2",
+    "rimraf": "^3.0.0"
+  }
+}
