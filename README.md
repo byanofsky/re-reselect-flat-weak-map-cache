@@ -6,7 +6,7 @@ Custom cache object to be used with Re-reselect. It utilizes a Weak Map so that 
 
 ```javascript
 import createCachedSelector from 're-reselect';
-import { FlatWeakMapCache } from 'flat-weak-map-cache';
+import { FlatWeakMapCache } from 're-reselect-flat-weak-map-cache';
 
 createCachedSelector()({
   // ...
