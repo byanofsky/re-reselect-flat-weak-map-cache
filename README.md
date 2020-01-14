@@ -31,6 +31,10 @@ To follow best practices, objects are treated as immutable: any change to an obj
 
 Conversely, a weak map holds a weak reference to the key object. So if there are no other references to the object, it and its value will be garbage collected.
 
+## Contributors
+
+* [patrick-steele-idem](https://github.com/patrick-steele-idem) - identified the problem with memory leaks using caching selectors
+
 ## TODO
 
 - Publish to NPM
